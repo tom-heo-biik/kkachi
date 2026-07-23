@@ -219,3 +219,7 @@ Thumb travel: 24pt
 |---|---:|---:|---|---|
 | Border | 200ms | 0 | (0, 0, 0.1, 1) | width 1.5 → 3, color neutral-200 → blue-vivid |
 | Dot | 200ms | 0 | (0, 0, 0.1, 1) | scale 0 → 1, opacity 0 → 1 |
+
+
+## Dark Mode (TODO)
+다크모드 지원이 확정되었습니다(2026-07-24, kkachi-product 개인 탭의 화면 테마 참조 — 시스템/라이트/다크). 현재 토큰은 라이트 기준이므로 다크 토큰 세트(컬러 매핑, shadow 대응)가 필요합니다. 아직 제작 전입니다.
