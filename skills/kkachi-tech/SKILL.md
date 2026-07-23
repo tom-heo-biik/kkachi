@@ -33,3 +33,5 @@ description: AI 일정 비서 '까치'의 기술 결정 스킬입니다. 확정 
 - Edge Functions: chat(대화 + tool use), calendar-sync(양방향 동기화), briefing(브리핑 생성·발송)
 - 스케줄: pg_cron으로 브리핑 시각·리마인더 발송·동기화 폴링 처리
 - 동기화: sync token 기반 증분 동기화, etag 충돌은 최신 수정 우선(last-write-wins)으로 단순화
+
+재검토 메모 (2026-07-24): 제품 결정 '브리핑 = 홈의 아침 상태'에 따라 briefing Edge Function과 briefings 테이블(발송 기록)의 생성·발송 모델은 재검토가 필요합니다. 홈의 '까치의 한마디'는 진입 시마다 에이전트가 생성할 수 있는 구조라, 호출 비용·캐싱·지연 설계도 함께 검토해야 합니다.
