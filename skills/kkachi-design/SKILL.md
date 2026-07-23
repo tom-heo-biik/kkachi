@@ -85,9 +85,9 @@ space-40: 40px
 ### Size
 | Size | Height | Radius | Typography |
 |---|---|---|---|
-| sm | 44pt | squircle-small | body-bold |
-| md | 48pt | squircle-medium | title |
-| lg | 52pt | squircle-large | title-large |
+| sm | 44pt | squircle-small | typo-2 |
+| md | 48pt | squircle-medium | typo-3 |
+| lg | 52pt | squircle-large | typo-4 |
 
 
 ### Motion
